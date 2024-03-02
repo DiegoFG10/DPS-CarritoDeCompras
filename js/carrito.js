@@ -11,15 +11,18 @@ function crearProductos() {
     if (productos && productos.length > 0) {
         productos.forEach((producto) => {
             const nuevoElemento = document.createElement("div");
-            nuevoElemento.classList = "nuevo-producto";
+            nuevoElemento.classList = "text-bg-dark rounded text-center border border-success ";
             nuevoElemento.innerHTML = `
-            <img src=${producto.img}>
+            <div class="border border-success p-2 mb-2">
+            <img src=${producto.img} class="rounded-circle img-fluid img-thumbnail" style="width:120px;">
             <h3>${producto.nombre}</h3>
             <p>$${producto.precio}</p>
-            <div>
-            <button>-</button>
-            <span class="cantidad" >${producto.cantidad}</span>
-            <button>+</button>
+            <div class=""mx-5 p-2">
+            <button "type="button" class="btn btn-danger ">-</button>
+           
+            <span class="cantidad">${producto.cantidad}</span>
+            <button type"button" class="btn btn-success">+</button>
+            </div>
             </div>
         `;
             contenedorProducto.appendChild(nuevoElemento);
