@@ -1,0 +1,79 @@
+const productos = [
+
+    {
+        id:1,
+        nombre: "mouse1",
+        img: "./img/mouse asus m4 air p307.jpeg",
+        precio: 49,
+    },
+    {
+        id:2,
+        nombre: "mouse2",
+        img: "./img/mouse logitech G203.jpeg",
+        precio: 49,
+    },
+    {
+        id:3,
+        nombre: "mouse3",
+        img: "./img/mouse razer deathadder.jpeg",
+        precio: 49,
+    },
+    {
+        id:4,
+        nombre: "mouse4",
+        img: "./img/mouse sharkoon shark force II black.jpeg",
+        precio: 49,
+    },
+
+
+    {
+        id:5,
+        nombre: "teclado1",
+        img: "./img/padnumerico redragon.png",
+        precio: 49,
+    },
+    {
+        id:6,
+        nombre: "teclado2",
+        img: "./img/redragon draconic K530.jpg",
+        precio: 49,
+    },
+    {
+        id:7,
+        nombre: "teclado3",
+        img: "./img/teclado-spectra-metalico.jpeg",
+        precio: 49,
+    },
+    {
+        id:8,
+        nombre: "teclado4",
+        img: "./img/teclado-usb-gamer-xtreme.jpg",
+        precio: 49,
+    },
+
+
+    {
+        id:9,
+        nombre: "headset1",
+        img: "./img/HEADSET INALAMBRICO ASTRO A50 PC XBOX MAC BASE STATION.jpeg",
+        precio: 49,
+    },
+    {
+        id:10,
+        nombre: "headset2",
+        img: "./img/HEADSET INALAMBRICO BLUETOOTH LOGITECH G PRO X 2 LIGHTSPEED DTS X BLUE VOICE.jpeg",
+        precio: 49,
+    },
+    {
+        id:11,
+        nombre: "headset3",
+        img: "./img/HEADSET INALAMBRICOS BT LOGITECH G735 LIGHTSPEED RGB WHITE 981-001082 AURORA COLLECTION.jpeg",
+        precio: 49,
+    },
+    {
+        id:12,
+        nombre: "headset4",
+        img: "./img/HEADSET LOGITECH ASTRO A40 + MIXAMP PRO PS5 PS4 PC MAC.jpeg",
+        precio: 49,
+    },
+]

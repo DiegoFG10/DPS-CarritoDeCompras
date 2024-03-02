@@ -1,0 +1,33 @@
+.nuevo-producto {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nuevo-producto img {
+    height: 100px;
+}
+
+#productos-container {
+    width: 500px;
+    margin: auto;
+}
+
+.nuevo-producto h3{
+    width: 130px;
+}
+
+#total, #vacio{
+    text-align: center;
+}
+
+button{
+    border: none;
+    background-color: rgb(109, 109, 109);
+    box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.459);
+    padding: 10px;
+}
+
+.escondido{
+    display: none;
+}

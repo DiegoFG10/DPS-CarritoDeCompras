@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TecnologyCA</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="carrito.css" type="text/css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./index.html"><img src="./img/LOGOEMPRESA.png" id="logo" alt="logo"></a>
+            <div>
+
+                <a href="./carrito.html"><img src="./img/icono-shopping-cart.jpg" id="logocarrito" alt="carrito"><span id="C-carrito">0</span></a>
+            </div>
+        </nav>
+        
+    </header>
+    <main>
+        <p id="vacio">UPS! tu carrito esta vacio</p>
+        <section id="productos-container"></section>
+        <section id="total">
+            <p>Total unidades: <span id="unidades">0</span></p>
+            <p> Total precio: <span id="precio">0</span></p>
+            <button>Comprar</button>
+        </section>    
+    </main>
+    <footer>Derechos reservados - TecnologyCA</footer>
+</body>
+<script src="./js/LocalStorage.js" defer></script>
+<script src="./js/carrito.js" defer></script>
+</html> 
